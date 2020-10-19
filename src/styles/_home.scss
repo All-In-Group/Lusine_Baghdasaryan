@@ -1,20 +1,22 @@
 .home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../images/home.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 44vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/home.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 44vw;
+  margin-top: 50px;
 
-    h1 {
-      font-size: 50px;
-      margin-bottom: 30px;
-      font-family: $fontPoppins;
-      color: $colorWhite;
-      text-align: center;
-    }
+  h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: $fontPoppins;
+    color: $colorWhite;
+    text-align: center;
+  }
+
   p {
     font-size: 20px;
     margin-bottom: 30px;
